@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    height: 100px;
+
+}
+
+ul {
+    display: flex;
+    margin-left: 700px;
+}
+
+a.menu-home {
+    text-decoration: none;
+    color: violet;
+}
+.menu-left img {
+    width: 200px;
+    height: 80 px;
+    padding-left: 100px;
+    padding: 10px 10px 10px 80px;
+}
+
+.menu-right li {
+    display: inline-block;
+    padding-top: 40px;
+    padding-right: 30px;
+    justify-content: center;
+
+}
+.menu-food-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.socials {
+    position: absolute;
+
+}
